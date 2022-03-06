@@ -1,7 +1,8 @@
 # LinkY
 LinkY, A Linktree CLONE - https://kartikthakur7107.github.io/LinkY/
 How To Use?
-1. Fork The REPO. :D
+1. Fork The REPO. :D.
+
 2.Create a Round Profile Image from the link given - Create Round Profile Image - https://profilepicturemaker.com/
 ![Tutorial To Create Round Image](/LinkY.gif)
 
