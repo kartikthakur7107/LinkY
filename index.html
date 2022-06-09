@@ -1,24 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.css">
-<title>💚LinkY💚</title>
-</head>
-<body>
-<!-- Profile picture-->
-<img src="assets/pp.png" alt="profile picture" class="profile-picture">
-<!-- Profile name-->
-<div class="profile-name"><h3>@kartik7107</h3></div>
-<!-- Links-->
-<!-- REPLACE # with your social links , EX- https://instagram.com/username/-->
-<a href="https://www.linkedin.com/in/kartik7107/" class="links">LINKEDIN</a>
-<a href="https://www.kartik.gq" class="links">PORTFOLIO</a>
-<a href="https://github.com/kartikthakur7107" class="links">GITHUB</a>
-<!-- Logo -->
-<div class="bottom-text">LinkY -  Linktree Clone</div>
-  <!-- Footer -->
-<div class="footer">Made With 💕 By <a href="https://github.com/kartikthakur7107">Kartik Thakur</a> </div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik Thakur | LinkY</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/72328959?v=4" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <!-- Parallax Pixel Background Animation (copied) -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End ofBackground Animation -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="assets/pp.png" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="assets/pp.png" target="_blank">
+            <img src="assets/pp.png"Profile Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+          Former Web Intern at Oasis Infobyte ||Contributor at GSSoC'22 || GNDU'25
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="userName">
+      @kartik7107
+    </div>
+
+    <div id="links">
+
+      <a class="link" href="https://github.com/kartikthakur7107" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>Github
+      </a>
+      <a class="link" href="https://api.whatsapp.com/send?phone=+917837173752&text=Hello,%20How%20you%20doin%27%20Kartik" target="_blank">
+        <i class="fab fa-whatsapp">&nbsp;</i>MyWhatsapp
+      </a>
+      <a class="link" href="https://www.snapchat.com/add/kartik_op?share_id=ilMR4d8Wtz0&locale=en-US" target="_blank">
+        <i class="fab fa-snapchat">&nbsp;</i>SnapChat
+      </a>
+      <a class="link" href="http://kartik.gq" target="_blank">
+        <i class="fab fa-deploydog">&nbsp;</i>Portfolio
+      </a>
+      <a class="link" href="https://www.linkedin.com/in/kartik7107/" target="_blank">
+        <i class="fab fa-linkedin">&nbsp;</i>LinkedIn
+      </a>
+      <a class="link" href="https://www.instagram.com/kartik.gq" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+      </a>
+      <a class="link" href="https://twitter.com/kartik__op" target="_blank">
+        <i class="fab fa-twitter">&nbsp;</i>Twitter
+      </a>
+
+    </div>
+
+    <div id="hashtag">
+      MADE  WITH 💙 By Kartik Thakur 
+    </div>
+  </body>
 </html>
